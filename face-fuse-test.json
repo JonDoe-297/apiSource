@@ -1,6 +1,6 @@
 {
   "method": "POST",
-  "url": "https://openapi.mtlab.meitu.com/v1/facefuseEx",
+  "url": "https://openapi.mtlab.meitu.com/test/facefuseEx",
   "queryString": [
     { "name": "api_key", "value": "XXX" },
     { "name": "api_secret", "value": "XXX" }

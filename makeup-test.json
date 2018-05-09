@@ -1,6 +1,6 @@
 {
   "method": "POST",
-  "url": "https://openapi.mtlab.meitu.com/v1/facefuseEx",
+  "url": "https://openapi.mtlab.meitu.com/test/makeup",
   "queryString": [
     { "name": "api_key", "value": "XXX" },
     { "name": "api_secret", "value": "XXX" }
@@ -11,6 +11,6 @@
   ],
   "postData": {
     "mimeType": "application/json",
-    "text": "{\"parameter\": {\"type\": 0 \"makeupId\": 0 \"makeupAlpha\": 70 \"beautyAlpha\": 70 \"rsp_media_type\":\"base64\" \"faceFusePPType\": 0},\"extra\": {},\"media_info_list\": [{\"media_data\": \"...\",\"media_profiles\": {\"media_data_type\": \"jpg\"}}]}"
+    "text": "{\"parameter\": {\"type\": 0 \"makeupId\": 0 \"makeupAlpha\": 70 \"beautyAlpha\": 70 \"rsp_media_type\":\"base64\" \"return_landmark\": 3},\"extra\": {},\"media_info_list\": [{\"media_data\": \"...\",\"media_profiles\": {\"media_data_type\": \"jpg\"}}]}"
   }
 }
