@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "url": "https://openapi.mtlab.meitu.com/v1/mtstyle",
+  "queryString": [
+    { "name": "api_key", "value": "XXX" },
+    { "name": "api_secret", "value": "XXX" }
+  ],
+  "headers": [
+    { "name": "Accept", "value": "application/json" },
+    { "name": "Content-Type", "value": "application/json" }
+  ],
+  "postData": {
+    "mimeType": "application/json",
+    "text": "{\"parameter\": {\"outputType\": 2 \"rsp_media_type\": \"base64\"},\"extra\": {},\"media_info_list\": [{\"media_data\": \"...\",\"media_profiles\": {\"media_data_type\": \"jpg\"}}]}"
+  }
+}
