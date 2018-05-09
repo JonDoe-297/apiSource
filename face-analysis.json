@@ -4,7 +4,7 @@
   "queryString": [
     { "name": "api_key", "value": "XXX" },
     { "name": "api_secret", "value": "XXX" }
-  ]
+  ],
   "headers": [
     { "name": "Accept", "value": "application/json" },
     { "name": "Content-Type", "value": "application/json" }
