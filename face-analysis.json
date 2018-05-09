@@ -11,18 +11,6 @@
   ],
   "postData": {
     "mimeType": "application/json",
-    "text": "{
-    "parameter": {
-        "return_attributes":"facial_analysis"
-		"return_landmark": 3
-  },
-	"extra": {},
-	"media_info_list": [{
-		"media_data": "...",
-		"media_profiles": {
-			"media_data_type": "jpg"
-		}
-	}]
-}"
-}
+    "text": ""{\"parameter\": {\"return_attributes\":\"facial_analysis\" \"return_landmark\": 3},\"extra\": {},\"media_info_list\": [{\"media_data\": \"...\",\"media_profiles\": {\"media_data_type\": \"jpg\"}}]}""
+  }
 }
