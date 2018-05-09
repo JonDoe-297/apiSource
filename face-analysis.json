@@ -1,21 +1,16 @@
 {
   "method": "POST",
-  "url": "http://mockbin.com/request",
-  "httpVersion": "HTTP/1.1",
+  "url": "https://openapi.mtlab.meitu.com/v1/faceanalysis",
   "queryString": [
-    { "name": "foo", "value": "bar" },
-    { "name": "foo", "value": "baz" }
+    { "name": "api_key", "value": "XXX" },
+    { "name": "api_secret", "value": "XXX" }
   ],
   "headers": [
     { "name": "Accept", "value": "application/json" },
     { "name": "Content-Type", "value": "application/json" }
   ],
-  "cookies":  [
-    { "name": "foo", "value": "bar" },
-    { "name": "bar", "value": "baz" }
-  ],
   "postData": {
     "mimeType": "application/json",
-    "text": "{\"foo\": \"bar\"}"
+    "text": "{\"parameter\": {\"return_attributes\":\"facial_analysis\" \"return_landmark\": 3},\"extra\": {},\"media_info_list\": [{\"media_data\": \"...\",\"media_profiles\": {\"media_data_type\": \"jpg\"}}]}"
   }
 }
