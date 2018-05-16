@@ -11,6 +11,6 @@
   ],
   "postData": {
     "mimeType": "application/json",
-    "text": "{\"parameter\": {\"type\": 0 \"makeupId\": 0 \"faceFusePPType\": 8044 \"rsp_media_type\": \"base64\"},\"extra\": {},\"media_info_list\": [{\"media_data\": \"...\",\"media_profiles\": {\"media_data_type\": \"jpg\"}}]}"
+    "text": "{\"parameter\": {\"type\": 0,\"makeupId\": 0,\"faceFusePPType\": 8044,\"rsp_media_type\": \"base64\"},\"extra\": {},\"media_info_list\": [{\"media_data\": \"...\",\"media_profiles\": {\"media_data_type\": \"jpg\"}}]}"
   }
 }

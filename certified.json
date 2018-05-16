@@ -11,6 +11,6 @@
   ],
   "postData": {
     "mimeType": "application/json",
-    "text": "{\"parameter\": {\"makeupAlpha\": 100 \"beautyAlpha\": 50},\"extra\": {},\"media_info_list\": [{\"media_data\": \"...\",\"media_profiles\": {\"media_data_type\": \"jpg\"}}]}"
+    "text": "{\"parameter\": {\"makeupAlpha\": 100,\"beautyAlpha\": 50},\"extra\": {},\"media_info_list\": [{\"media_data\": \"...\",\"media_profiles\": {\"media_data_type\": \"jpg\"}}]}"
   }
 }
