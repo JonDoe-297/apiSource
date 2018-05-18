@@ -1,6 +1,6 @@
 {
   "method": "POST",
-  "url": "https://openapi.mtlab.meitu.com/v1/segmentEx",
+  "url": "https://openapi.mtlab.meitu.com/v3/makeup",
   "queryString": [
     { "name": "api_key", "value": "XXX" },
     { "name": "api_secret", "value": "XXX" }
@@ -11,6 +11,6 @@
   ],
   "postData": {
     "mimeType": "application/json",
-    "text": "{\"parameter\": {\"outputType\": 2},\"extra\": {},\"media_info_list\": [{\"media_data\": \"...\",\"media_profiles\": {\"media_data_type\": \"jpg\"}}]}"
+    "text": "{\"parameter\": {\"makeupId\": 0,\"rsp_media_type\":\"base64\",\"return_landmark\": 3},\"extra\": {},\"media_info_list\": [{\"media_data\": \"...\",\"media_profiles\": {\"media_data_type\": \"jpg\"}}]}"
   }
 }
